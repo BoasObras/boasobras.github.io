@@ -8,11 +8,13 @@
 	"buffers":
 	[
 		{
-			"file": "CNAME",
+			"file": "SublimeText.gitignore",
 			"settings":
 			{
-				"buffer_size": 13,
-				"line_ending": "Windows"
+				"buffer_size": 797,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "# Cache files for Sublime Text"
 			}
 		}
 	],
@@ -100,23 +102,24 @@
 			[
 				{
 					"buffer": 0,
-					"file": "CNAME",
-					"semi_transient": true,
+					"file": "SublimeText.gitignore",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 13,
+						"buffer_size": 797,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								13,
-								13
+								797,
+								797
 							]
 						],
 						"settings":
 						{
+							"auto_name": "# Cache files for Sublime Text",
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
