@@ -38,6 +38,11 @@
   class: icon-instagram
   title: "Já viu o que fazemos?"
 
+- name: LinkedIn
+  url: https://www.linkedin.com/
+  class: icon-linkedin
+  title: "Conecte-se conosco!"
+
 # - name: Pinterest
 #   url: http://www.pinterest.com/
 #   class: icon-pinterest
