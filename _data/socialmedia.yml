@@ -1,42 +1,42 @@
 - name: GitHub
-  url: http://github.com/phlow
+  url: https://github.com/BoasObras
   class: icon-github
-  title: Code und mehr...
+  title: Ajude-nos a melhorar nosso código!
 
-- name: YouTube
-  url: http://www.youtube.com/PhlowMedia
-  class: icon-youtube
-  title: "Videos, Video-Anleitungen und Filme von Phlow auf YouTube"
+# - name: YouTube
+#   url: http://www.youtube.com/PhlowMedia
+#   class: icon-youtube
+#   title: "Videos, Video-Anleitungen und Filme von Phlow auf YouTube"
 
-- name: Twitter
-  url: http://twitter.com/phlow
-  class: icon-twitter
-  title: "Immer das Neuste von Phlow gibt es auf Twitter"
+# - name: Twitter
+#   url: http://twitter.com/phlow
+#   class: icon-twitter
+#   title: "Immer das Neuste von Phlow gibt es auf Twitter"
 
-- name: Mixcloud
-  url: http://www.mixcloud.com/phlow/
-  class: icon-cloud
-  title: "Mixe, was sonst?"
+# - name: Mixcloud
+#   url: http://www.mixcloud.com/phlow/
+#   class: icon-cloud
+#   title: "Mixe, was sonst?"
 
-- name: Phlow YouTube Google+
-  url: https://plus.google.com/u/0/+Phlow
+- name: Google+
+  url: https://plus.google.com/
   class: icon-googleplus
-  title: "YouTube Google+"
+  title: "Google+"
 
-# - name: Facebook
-#   url: http://www.facebook.com/
-#   class: icon-facebook
-#   title: ""
+- name: Facebook
+  url: http://fb.com/grupoboasobras
+  class: icon-facebook
+  title: "Curta nossa página!"
 
 # - name: Soundcloud
 #   url: http://soundcloud.com/
 #   class: icon-soundcloud
 #   title: ""
 
-# - name: Instagram
-#   url: http://instagram.com/
-#   class: icon-instagram
-#   title: ""
+- name: Instagram
+  url: https://www.instagram.com/grupoboasobras/
+  class: icon-instagram
+  title: "Já viu o que fazemos?"
 
 # - name: Pinterest
 #   url: http://www.pinterest.com/
