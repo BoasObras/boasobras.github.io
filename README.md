@@ -1,69 +1,59 @@
-## You like and use this theme? Than support me. Just [paypal.me/PhlowMedia](https://www.paypal.me/PhlowMedia) :)
+# Boas Obras: Ações de valor por um mundo melhor!
 
-[![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=Phlow&url=https://github.com/Phlow/feeling-responsive&title=Support%20Feeling%20Responsive%20Jekyll%20Theme&language=en_GB&tags=github,jekyll,theme,webdesign&category=software)
+O »Boas Obras« é um grupo voluntário baseado em campinas que age em prol das necessidades de comunidades locais, buscando levar condições básicas, conhecimento e amor aos que mais precisam.
 
+[![Logo do Boas Obras](https://github.com/BoasObras/boasobras.github.io/blob/master/assets/img/logo.png)](http://boasobras.org/)
 
-# Newsletter: Stay in Touch for Future Updates
+## O que fazemos?
 
-If you are a webdesigner interested in Jekyll, the static website generator, this little newsletter is for you. I share tutorials, clever code snippets and information about my own Jekyll Themes called [*Feeling Responsive*][7] and [*Simplicity*][8]. Please don't expect weekly emails :)
+Nós realizamos atividades dos tipos:
 
-[![Subscribe to Jekyll Newsletter](https://phlow.github.io/static/tinyletter_subscribe_button.png)](https://tinyletter.com/feeling-responsive)
+1. Proteção Básica
+2. Proteção Social Especial
+a. Média Complexidade
+b. Alta Complexidade
 
+**[Saiba Mais ›][1]**
 
-[![Start Video](https://github.com/Phlow/feeling-responsive/blob/gh-pages/images/video-feeling-responsive-1280x720.jpg)](https://www.youtube.com/embed/3b5zCFSmVvU)
+Acreditamos que ações locais podem e gerarão impacto para o mundo inteiro e é isso que nos move!
 
-## A Responsive Jekyll Theme: *Feeling Responsive*
+> Think globally, act locally. [*Wikipedia*][2]
 
-Do you want to get to know *Feeling Responsive*? Than check it out first and have a look on its home at  <http://phlow.github.io/feeling-responsive/>.
+## Faça a diferença conosco
 
-To get to know *Feeling Responsive* check out all the features explained in the [documentation][1].
+Nos siga em nossas mídias sociais (que estão abaixo), dê uma conferida no nosso site **[Boas Obras ›][7]** ou ajude nosso código a melhorar no GitHub!
 
-And what license is *Feeling Responsive* released under? [This one][2].
-
-
-
-## Why use this theme?
-
-Feeling Responsive is heavily customizable.
-
-1. Language-Support :)
-2. Optimized for speed and it's responsive.
-3. Built on Foundation Framework.
-4. Six different Headers.
-5. Customizable navigation, footer,...
-
-**[More ›][3]**
+[![Acesse nosso Facebook!][1.1]][8]
+[![Conecte com nosso GPlus][2.1]][9]
+[![Melhore nosso código][3.1]][10]
+[![Veja nosso insta][4.1]][11]
+[![Conecte-se com nosso LinkedIn][5.1]][12]
 
 
+## Sobre o site
 
-## Changelog
+Tema criado com &hearts; por [Phlow][6], editado por [Victor Neves][4] e com base em [Jekyll][5]. O site é open source e está sob licença [*MIT*][3].
 
-*Feeling Responsive* is in active development. Thank you to everyone who contributed, especially [Róbert Papp][5], [Alexandra von Criegern](https://github.com/plutonik-a) and [Juan Jose Amor Iglesias](https://github.com/jjamor).
+<!-- Links utilizados nessa página -->
 
-**[Read Changelog ›][6]**
+ [1]: http://www.prefeitura.sp.gov.br/cidade/secretarias/upload/assistencia_social/cecoas/AULA_2_SUAS_e_a_protecao_social_a_pessoa_com_deficiencia.pdf
+ [2]: https://en.wikipedia.org/wiki/Think_globally,_act_locally
+ [3]: https://github.com/BoasObras/boasobras.github.io/blob/master/LICENSE
+ [4]: https://www.linkedin.com/in/nevesvictor/
+ [5]: http://jekyllrb.com/
+ [6]: http://phlow.de/
+ [7]: http://boasobras.org/
+ [8]: http://fb.com/grupoboasobras
+ [9]: http://plus.google.com/
+ [10]: https://github.com/BoasObras
+ [11]: https://www.instagram.com/grupoboasobras/
+ [12]: http://www.linkedin.com/
 
+<!-- Imagens utilizados nessa página -->
 
+ [1.1]: https://github.com/BoasObras/boasobras.github.io/blob/master/assets/socialmedia-icons/facebook.png (facebook icon with padding)
+ [2.1]: https://github.com/BoasObras/boasobras.github.io/blob/master/assets/socialmedia-icons/google-plus.png (google plus icon with padding)
+ [3.1]: https://github.com/BoasObras/boasobras.github.io/blob/master/assets/socialmedia-icons/github.png (github icon with padding)
+ [4.1]: https://github.com/BoasObras/boasobras.github.io/blob/master/assets/socialmedia-icons/instagram.png (instagram icon with padding)
+ [5.1]: https://github.com/BoasObras/boasobras.github.io/blob/master/assets/socialmedia-icons/linkedin.png (linkedin icon with padding)
 
-## Video Tutorial
-
-Click the image to [watch the YouTube-Video-Tutorial][4].
-
-[![Start Video](https://github.com/Phlow/feeling-responsive/blob/gh-pages/images/video-feeling-responsive-tutorial-frontpage.jpg)](https://www.youtube.com/watch?v=rLS-BEvlEyY)
-
-
-
-
-
-
-
-
- [1]: http://phlow.github.io/feeling-responsive/documentation/
- [2]: https://github.com/Phlow/feeling-responsive/blob/gh-pages/LICENSE
- [3]: http://phlow.github.io/feeling-responsive/info/
- [4]: https://www.youtube.com/watch?v=rLS-BEvlEyY
- [5]: https://github.com/TWiStErRob
- [6]: https://phlow.github.io/feeling-responsive/changelog/
- [7]: http://phlow.github.io/feeling-responsive/
- [8]: http://phlow.github.io/simplicity/
- [9]: #
- [10]: #
