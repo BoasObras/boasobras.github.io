@@ -28,3 +28,4 @@
 	{% if site.msapplication_tileimage %}<meta name="msapplication-TileImage" content="{{ "/assets/img/" | absolute_url }}{{ site.msapplication_tileimage }}">{% endif %}
 {% comment %} Background Color for Tile for Windows 8  {% endcomment %}
 	{% if site.msapplication_tilecolor %}<meta name="msapplication-TileColor" content="{{ site.msapplication_tilecolor }}">{% endif %}
+<link rel="manifest" href="{{ "/assets/img/" | absolute_url }}{{ manifest.json }}">
