@@ -9,9 +9,10 @@ O »Boas Obras« é um grupo voluntário baseado em campinas que age em prol das
 Nós realizamos atividades dos tipos:
 
 1. Proteção Básica
-2. Proteção Social Especial
-a. Média Complexidade
-b. Alta Complexidade
+
+2. Proteção Social Especial:
+	1.1. Média Complexidade
+	1.2. Alta Complexidade
 
 **[Saiba Mais ›][1]**
 
