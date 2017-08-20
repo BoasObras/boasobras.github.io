@@ -14,7 +14,7 @@ title: 'Boas Obras'
 slogan: 'Ações de valor por um mundo melhor!'
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
-description: 'O »Boas Obras« é um grupo voluntário baseado em campinas que age em prol das necessidades de comunidades locais, buscando levar condições básicas, conhecimento e amor aos que mais precisam.'
+description: 'O <strong>Boas Obras</strong> é um grupo voluntário de campinas que age em prol das necessidades de comunidades locais, buscando levar condições básicas, conhecimento e amor aos que mais precisam.'
 
 # The credits show up in the includes/_footer.html – It would be nice of you to leave a link to Phlow or Feeling Responsive as a thank you :)
 credits: '<p>Tema criado com &hearts; por <a href="http://phlow.de/">Phlow</a> e editado por <a href="https://www.linkedin.com/in/nevesvictor/">Victor Neves</a> com <a href="http://jekyllrb.com/" target="_blank">Jekyll</a>.</p>'
