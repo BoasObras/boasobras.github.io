@@ -3,6 +3,19 @@
   url: "/"
   side: left
 
+- title: "Sobre"
+  url: "/sobre/"
+  side: left
+  dropdown:
+  - title: "Quem Somos"
+    url: "/sobre/quem-somos/"
+  - title: "Propósito"
+    url: "/sobre/quem-somos/"
+  - title: "Voluntários"
+    url: "/sobre/voluntarios/"
+  - title: "Parceiros"
+    url: "/sobre/parceiros/" 
+
 - title: Atividades
   url: "/atividades/"
   side: left
@@ -24,19 +37,6 @@
 - title: "busca"
   url: "/busca/"
   side: right
-
-- title: "Sobre"
-  url: "/sobre/"
-  side: right
-  dropdown:
-  - title: "Quem Somos"
-    url: "/sobre/quem-somos/"
-  - title: "Propósito"
-    url: "/sobre/quem-somos/"
-  - title: "Voluntários"
-    url: "/sobre/voluntarios/"
-  - title: "Parceiros"
-    url: "/sobre/parceiros/" 
 
 - title: "Contato"
   url: "/contato/"
