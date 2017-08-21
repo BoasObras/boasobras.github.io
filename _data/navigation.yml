@@ -13,9 +13,6 @@
     url: "/atividades/tarde-com-criancas/"
   - title: "Histórico"
     url: "/atividades/historico/"
-    dropdown:
-    - title: "Atividade 1"
-      url: "/atividades/1/"
 
 - title: Blog
   url: "/blog/"
@@ -39,10 +36,7 @@
   - title: "Voluntários"
     url: "/sobre/voluntarios/"
   - title: "Parceiros"
-    url: "/sobre/parceiros/"
-    dropdown:
-    - title: "Vire Parceiro!"
-      url: "/sobre/parceria/"  
+    url: "/sobre/parceiros/" 
 
 - title: "Contato"
   url: "/contato/"
