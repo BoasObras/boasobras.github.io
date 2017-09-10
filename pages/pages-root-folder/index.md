@@ -33,7 +33,7 @@ widget3:
 # To change colors see sass/_01_settings_colors.scss
 #
 callforaction:
-  url: /banco-de-emails/
+  url: /como-ajudar/
   text: Quero ajudar o Boas Obras com o que puder ›
   style: alert
 permalink: /index.html
