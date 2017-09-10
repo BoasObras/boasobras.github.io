@@ -21,7 +21,7 @@ widget3:
   title: "Torne-se voluntário(a)!"
   url: /inscricao/
   image: inscricao.jpg
-  text: 'Não nascemos voluntários, nos tornamos! Descubra como fazer parte do nosso grupo e faça <em>Boas Obras</em> conosco <br/>💕💛💚💙💜🖤💕'
+  text: 'Não nascemos voluntários, nos tornamos! Descubra como fazer parte do nosso grupo e faça <em>Boas Obras</em> conosco 💛💚💙💜💕'
 #
 # Use the call for action to show a button on the frontpage
 #
