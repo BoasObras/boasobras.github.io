@@ -13,7 +13,7 @@ widget1:
   image: blog&port.jpg
   text: 'Quer conhecer um pouco sobre as nossas ideias, as campanhas que apoiamos ou notícias sobre fazer o bem? Entre agora no nosso blog para ver mais 😃'
 widget2:
-  title: "Nossas atividades e campanhas"
+  title: "Atividades e Campanhas"
   url: /atividades/
   image: atividades.jpg
   text: 'Durante o ano inteiro, nós do <em>Boas Obras</em> realizamos atividades e campanhas de arrecadação. Quer conhecê-las ou nos sugerir novas ideas?'
