@@ -10,7 +10,7 @@ header:
 widget1:
   title: "Blog & Portfólio"
   url: /blog/
-  image: blog&port.jpg
+  image: blog.jpg
   text: 'Quer conhecer um pouco sobre as nossas ideias, as campanhas que apoiamos ou notícias sobre fazer o bem? Entre agora no nosso blog para ver mais 😃'
 widget2:
   title: "Atividades e Campanhas"
