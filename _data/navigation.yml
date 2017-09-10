@@ -24,6 +24,8 @@
     url: "/atividades/lar-sa/"
   - title: "Tarde com crianças"
     url: "/atividades/tarde-com-criancas/"
+  - title: "Campanhas"
+    url: "/atividades/campanhas/"    
   - title: "Histórico"
     url: "/atividades/historico/"
 
