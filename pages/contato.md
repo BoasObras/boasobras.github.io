@@ -10,99 +10,192 @@ permalink: "/contato/"
 ---
 
 <style>
-.container {
-  width: 600px;
-  margin: 2em auto;
-  overflow: hidden;
-  background: rgba(255,255,255,1);
-  border-radius: 5px;
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+#feedback-page{
+	text-align:center;
 }
 
-.message, .contact, .name, .footer, header, textarea  {
- display: block;
- padding: 0;
- margin: 0;
- border: 0;
- clear: both;
- overflow: hidden;
+#form-main{
+	width:100%;
+	float:left;
+	padding-top:0px;
 }
 
-.first, .last {
-  float: left;
-  width: 278px;
-  margin: 0;
-  padding: 0 0 0 20px;
-  border: 1px solid rgba(0,0,0,.1);
-  height: 50px;
+#form-div {
+	background-color:rgba(72,72,72,0.4);
+	padding-left:35px;
+	padding-right:35px;
+	padding-top:35px;
+	padding-bottom:50px;
+	width: 450px;
+	float: left;
+	left: 50%;
+	position: absolute;
+  margin-top:30px;
+	margin-left: -260px;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
 }
 
-.last {
-  width: 279px;
-  border-left: 0;  
+.feedback-input {
+	color:#3c3c3c;
+	font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+	font-size: 18px;
+	border-radius: 0;
+	line-height: 22px;
+	background-color: #fbfbfb;
+	padding: 13px 13px 13px 54px;
+	margin-bottom: 10px;
+	width:100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+  border: 3px solid rgba(0,0,0,0);
 }
 
-.email {
-  height: 50px;
-  width: 578px;
-  line-height: 50px;
-  padding: 0 0 0 20px;
-  border-top: 0;
-  border-left: 1px solid rgba(0,0,0,.1);
-  border-right: 1px solid rgba(0,0,0,.1);
-  border-bottom: 1px solid rgba(0,0,0,.1);
+.feedback-input:focus{
+	background: #fff;
+	box-shadow: 0;
+	border: 3px solid #3498db;
+	color: #3498db;
+	outline: none;
+  padding: 13px 13px 13px 54px;
+}
+
+.focused{
+	color:#30aed6;
+	border:#30aed6 solid 3px;
+}
+
+/* Icons ---------------------------------- */
+#name{
+	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#name:focus{
+	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-size: 30px 30px;
+	background-position: 8px 5px;
+  background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#email{
+	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#email:focus{
+	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-size: 30px 30px;
+  background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#comment{
+	background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
 }
 
 textarea {
-  @extend .email;
-  height: 200px;
+    width: 100%;
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
 }
 
-footer {
-  @extend header;
-  height: 49px;
-  border-top: 1px dashed rgba(0,0,0,.3);
-  border-radius: 0 0 5px 5px;
-  padding-left: 0;
-  padding-right: 20px;
-  
-  button {
-    height: 32px;
-    background: rgba(231, 76, 60,1.0);
-    border-radius: 5px;
-    border: 0;
-    margin: 7px 0;
-    color: rgba(255,255,255,1);
-    float: right;
-    padding: 0 20px 0 20px;
-    border-bottom: 3px solid rgba(192, 57, 43,1.0);
-    transition: all linear .2s;
-    
-    &:hover {
-      background: rgba(192, 57, 43,1.0);  
-    }
-    
-    &:focus {
-       outline: none; 
-    }
-  }
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+	background-color:white;
 }
 
-.first:focus, .last:focus, .email:focus, textarea:focus {
-  outline: none;
-  background: rgba(52, 152, 219,.1);
-  color: rgba(51,51,51,.7);
+#button-blue{
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	float:left;
+	width: 100%;
+	border: #fbfbfb solid 4px;
+	cursor:pointer;
+	background-color: #3498db;
+	color:white;
+	font-size:24px;
+	padding-top:22px;
+	padding-bottom:22px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+
+#button-blue:hover{
+	background-color: rgba(0,0,0,0);
+	color: #0493bd;
+}
+	
+.submit:hover {
+	color: #3498db;
+}
+	
+.ease {
+	width: 0px;
+	height: 74px;
+	background-color: #fbfbfb;
+	-webkit-transition: .3s ease;
+	-moz-transition: .3s ease;
+	-o-transition: .3s ease;
+	-ms-transition: .3s ease;
+	transition: .3s ease;
+}
+
+.submit:hover .ease{
+  width:100%;
+  background-color:white;
+}
+
+@media only screen and (max-width: 580px) {
+	#form-div{
+		left: 3%;
+		margin-right: 3%;
+		width: 88%;
+		margin-left: 0;
+		padding-left: 3%;
+		padding-right: 3%;
+	}
 }
 </style>
 
-.container
-  %header
-    %h1 Send us a suggestion! 
-  .name
-    %input.first{ :type => 'text', :placeholder => 'First Name'}
-    %input.last{ :type => 'text', :placeholder => 'Last Name'}
-  .contact
-    %input.email{ :type => 'text', :placeholder => 'E-mail Address'}
-  .message
-    %textarea{ :placeholder => 'Your Suggestions Here!'}
-  %footer 
-    %button Send Suggestion
+<div id="form-main">
+  <div id="form-div">
+    <form class="form" id="form1">
+      
+      <p class="name">
+        <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
+      </p>
+      
+      <p class="email">
+        <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
+      </p>
+      
+      <p class="text">
+        <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Comment"></textarea>
+      </p>
+      
+      
+      <div class="submit">
+        <input type="submit" value="SEND" id="button-blue"/>
+        <div class="ease"></div>
+      </div>
+    </form>
+  </div>
+
+  
