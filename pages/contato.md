@@ -10,263 +10,99 @@ permalink: "/contato/"
 ---
 
 <style>
-body {
-  font-family: 'Lato', georgia;
-  font-size: 25px;
-  color: rgba(255, 255, 255, 1);
-  background-color: rgba(236, 181, 62, 0.95);
-  text-align: center;
-  font-weight: 300;
-  -webkit-font-smoothing: antialiased;
+.container {
+  width: 600px;
+  margin: 2em auto;
+  overflow: hidden;
+  background: rgba(255,255,255,1);
+  border-radius: 5px;
 }
 
-#contact-form {
-  max-width: 90%;
-  margin: 0 auto;
+.message, .contact, .name, .footer, header, textarea  {
+ display: block;
+ padding: 0;
+ margin: 0;
+ border: 0;
+ clear: both;
+ overflow: hidden;
 }
 
-label {
-  font-weight: 400;
-  cursor: pointer;
+.first, .last {
+  float: left;
+  width: 278px;
+  margin: 0;
+  padding: 0 0 0 20px;
+  border: 1px solid rgba(0,0,0,.1);
+  height: 50px;
 }
 
-textarea,
-input {
-  border: none;
-  outline: none;
-  border-radius: 0;
-  text-align: center;
-  background: none;
-  font-weight: 700;
-  font-family: 'Lato', georgia;
-  font-size: 25px;
-  color: rgba(255, 255, 255, 1);
-  max-width: 90%;
-  padding: 1rem;
-  border: 2px dashed rgba(255, 255, 255, 0);
-  box-sizing: border-box;
-  cursor: text;
+.last {
+  width: 279px;
+  border-left: 0;  
+}
+
+.email {
+  height: 50px;
+  width: 578px;
+  line-height: 50px;
+  padding: 0 0 0 20px;
+  border-top: 0;
+  border-left: 1px solid rgba(0,0,0,.1);
+  border-right: 1px solid rgba(0,0,0,.1);
+  border-bottom: 1px solid rgba(0,0,0,.1);
 }
 
 textarea {
-  text-align: left;
-  /* overflow:hidden; */
+  @extend .email;
+  height: 200px;
+}
+
+footer {
+  @extend header;
+  height: 49px;
+  border-top: 1px dashed rgba(0,0,0,.3);
+  border-radius: 0 0 5px 5px;
+  padding-left: 0;
+  padding-right: 20px;
   
-  resize: none;
-  width: 90%;
-  border-color: rgba(255, 255, 255, 0)
+  button {
+    height: 32px;
+    background: rgba(231, 76, 60,1.0);
+    border-radius: 5px;
+    border: 0;
+    margin: 7px 0;
+    color: rgba(255,255,255,1);
+    float: right;
+    padding: 0 20px 0 20px;
+    border-bottom: 3px solid rgba(192, 57, 43,1.0);
+    transition: all linear .2s;
+    
+    &:hover {
+      background: rgba(192, 57, 43,1.0);  
+    }
+    
+    &:focus {
+       outline: none; 
+    }
+  }
 }
 
-textarea:focus {
-  background-color: rgba(255, 255, 255, 0.2);
-  border: 2px dashed rgba(255, 255, 255, 1);
-}
-
-textarea:focus:required:valid {
-  border: 2px solid rgba(255, 255, 255, 0);
-  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
-}
-
-textarea:required:valid {
-  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
-}
-
-input {
-  border-bottom: 2px dashed rgba(255, 255, 255, 0.5);
-}
-
-input:required,
-textarea:required {
-  border-bottom: 2px dashed rgba(255, 255, 255, 0.5);
-}
-
-input:focus {
-  border-bottom: 2px dashed rgba(255, 255, 255, 1);
-  background-color: rgba(255, 255, 255, 0.2);
-}
-
-input:required:valid {
-  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
-}
-
-input:required:invalid {
-  color: rgba(255, 255, 255, 0.5);
-}
-
-::-webkit-input-placeholder {
-  text-align: center;
-  color: rgba(255, 255, 255, 0.4);
-  font-style: italic;
-  font-weight: 400;
-}
-
-:-moz-placeholder {
-  /* Firefox 18- */
-  
-  text-align: center;
-  color: rgba(255, 255, 255, 0.4);
-  font-style: italic;
-  font-weight: 400;
-}
-
-::-moz-placeholder {
-  /* Firefox 19+ */
-  
-  text-align: center;
-  color: rgba(255, 255, 255, 0.4);
-  font-style: italic;
-  font-weight: 400;
-}
-
-:-ms-input-placeholder {
-  text-align: center;
-  color: rgba(255, 255, 255, 0.4);
-  font-style: italic;
-  font-weight: 400;
-}
-
-.expanding {
-  vertical-align: top;
-}
-
-.send-icn {
-  fill: rgba(255, 255, 255, 1)
-}
-
-.send-icn:hover {
-  fill: rgba(0, 0, 0, 1);
-  cursor: pointer;
-}
-
-button {
-  background: none;
-  border: none;
+.first:focus, .last:focus, .email:focus, textarea:focus {
   outline: none;
-  margin: 2vmax;
-}
-
-button:hover small {
-  opacity: 1;
-}
-
-small {
-  display: block;
-  opacity: 0;
-}
-
-.website {
-  opacity: 1;
-  font-size: 16px;
-  color: white;
-  position: relative;
-  text-align: center;
-  display: block;
-  margin-top: 7%;
-  
-}
-
-.website a {
-  color: white;
+  background: rgba(52, 152, 219,.1);
+  color: rgba(51,51,51,.7);
 }
 </style>
 
-<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
-
-<form id="contact-form">
-  <p>Dear Erlen,</p>
-  <p>My
-    <label for="your-name">name</label> is
-    <input type="text" name="your-name" id="your-name" minlength="3" placeholder="(your name here)" required> and</p>
-
-  <p>my
-    <label for="email">email address</label> is
-    <input type="email" name="your-email" id="email" placeholder="(your email address)" required>
-  </p>
-
-  <p> I have a
-    <label for="your-message">message</label> for you,</p>
-
-  <p>
-    <textarea name="your-message" id="your-message" placeholder="(your msg here)" class="expanding" required></textarea>
-  </p>
-  <p>
-    <button type="submit">
-      <svg version="1.1" class="send-icn" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="36px" viewBox="0 0 100 36" enable-background="new 0 0 100 36" xml:space="preserve">
-        <path d="M100,0L100,0 M23.8,7.1L100,0L40.9,36l-4.7-7.5L22,34.8l-4-11L0,30.5L16.4,8.7l5.4,15L23,7L23.8,7.1z M16.8,20.4l-1.5-4.3
-	l-5.1,6.7L16.8,20.4z M34.4,25.4l-8.1-13.1L25,29.6L34.4,25.4z M35.2,13.2l8.1,13.1L70,9.9L35.2,13.2z" />
-      </svg>
-      <small>send</small>
-    </button>
-  </p>
-</form>
-
-<script>
-// Auto resize input
-function resizeInput() {
-    $(this).attr('size', $(this).val().length);
-}
-
-$('input[type="text"], input[type="email"]')
-    // event handler
-    .keyup(resizeInput)
-    // resize on page load
-    .each(resizeInput);
-
-
-console.clear();
-// Adapted from georgepapadakis.me/demo/expanding-textarea.html
-(function(){
-  
-  var textareas = document.querySelectorAll('.expanding'),
-      
-      resize = function(t) {
-        t.style.height = 'auto';
-        t.style.overflow = 'hidden'; // Ensure scrollbar doesn't interfere with the true height of the text.
-        t.style.height = (t.scrollHeight + t.offset ) + 'px';
-        t.style.overflow = '';
-      },
-      
-      attachResize = function(t) {
-        if ( t ) {
-          console.log('t.className',t.className);
-          t.offset = !window.opera ? (t.offsetHeight - t.clientHeight) : (t.offsetHeight + parseInt(window.getComputedStyle(t, null).getPropertyValue('border-top-width')));
-
-          resize(t);
-
-          if ( t.addEventListener ) {
-            t.addEventListener('input', function() { resize(t); });
-            t.addEventListener('mouseup', function() { resize(t); }); // set height after user resize
-          }
-
-          t['attachEvent'] && t.attachEvent('onkeyup', function() { resize(t); });
-        }
-      };
-  
-  // IE7 support
-  if ( !document.querySelectorAll ) {
-  
-    function getElementsByClass(searchClass,node,tag) {
-      var classElements = new Array();
-      node = node || document;
-      tag = tag || '*';
-      var els = node.getElementsByTagName(tag);
-      var elsLen = els.length;
-      var pattern = new RegExp("(^|\\s)"+searchClass+"(\\s|$)");
-      for (i = 0, j = 0; i < elsLen; i++) {
-        if ( pattern.test(els[i].className) ) {
-          classElements[j] = els[i];
-          j++;
-        }
-      }
-      return classElements;
-    }
-    
-    textareas = getElementsByClass('expanding');
-  }
-  
-  for (var i = 0; i < textareas.length; i++ ) {
-    attachResize(textareas[i]);
-  }
-  
-})();
-</script>
+.container
+  %header
+    %h1 Send us a suggestion! 
+  .name
+    %input.first{ :type => 'text', :placeholder => 'First Name'}
+    %input.last{ :type => 'text', :placeholder => 'Last Name'}
+  .contact
+    %input.email{ :type => 'text', :placeholder => 'E-mail Address'}
+  .message
+    %textarea{ :placeholder => 'Your Suggestions Here!'}
+  %footer 
+    %button Send Suggestion
