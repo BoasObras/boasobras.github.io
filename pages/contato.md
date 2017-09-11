@@ -36,8 +36,8 @@ permalink: "/contato/"
 
 #contact {
 	background:#F9F9F9;
-	padding:25px;
-	margin:50px 0;
+	padding:5px;
+	margin:5px 0;
 }
 
 #contact h3 {
@@ -143,7 +143,5 @@ fieldset {
       <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
     </fieldset>
   </form>
- 
-  
 </div>
 
