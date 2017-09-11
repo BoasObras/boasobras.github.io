@@ -32,8 +32,9 @@ permalink: "/contato/"
 	float: left;
 	left: 50%;
 	position: absolute;
-  margin-top:30px;
+    margin-top:30px;
 	margin-left: -260px;
+  	margin-botton:36px
   -moz-border-radius: 7px;
   -webkit-border-radius: 7px;
 }
@@ -72,14 +73,14 @@ permalink: "/contato/"
 
 /* Icons ---------------------------------- */
 #name{
-	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-image: url(https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-person-add-32.png);
 	background-size: 30px 30px;
 	background-position: 11px 8px;
 	background-repeat: no-repeat;
 }
 
 #name:focus{
-	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-image: url(https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-person-add-32.png);
 	background-size: 30px 30px;
 	background-position: 8px 5px;
   background-position: 11px 8px;
@@ -87,21 +88,21 @@ permalink: "/contato/"
 }
 
 #email{
-	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-image: url(http://www.act.org/content/dam/act/unsecured/Images/icons/icon-envelop.png);
 	background-size: 30px 30px;
 	background-position: 11px 8px;
 	background-repeat: no-repeat;
 }
 
 #email:focus{
-	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-image: url(http://www.act.org/content/dam/act/unsecured/Images/icons/icon-envelop.png);
 	background-size: 30px 30px;
   background-position: 11px 8px;
 	background-repeat: no-repeat;
 }
 
 #comment{
-	background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+	background-image: url(http://www.vijayvaani.com/App_Themes/Default/Images/comment.png);
 	background-size: 30px 30px;
 	background-position: 11px 8px;
 	background-repeat: no-repeat;
@@ -197,13 +198,4 @@ input:focus, textarea:focus {
       </div>
     </form>
   </div>
-
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-
-
+  
