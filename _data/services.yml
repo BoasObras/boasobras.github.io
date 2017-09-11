@@ -1,7 +1,7 @@
 - menu_name: "Serviços"
 
 - name: "Contato"
-  url: "/contact/"
+  url: "/contato/"
   title: "Contato"
 
 - name: "RSS"
