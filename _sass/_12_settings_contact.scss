@@ -16,11 +16,13 @@
 }
 
 .container-social {
-    max-width:300px;
+    max-width:325px;
     width:100%;
-    margin:5px auto;
+    margin:5px;
     position:relative;
     background:#313131;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
 }
 
 .container {
