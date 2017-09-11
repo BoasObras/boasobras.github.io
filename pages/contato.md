@@ -8,15 +8,12 @@ header:
    image_fullwidth: "header_contato.jpg"
 permalink: "/contato/"
 ---
-<div class="quadro-social">
-  <div class="container-social">
-    <ul class="inline-list social-icons">
-        {% for social_item in site.data.socialmedia %}
-            <li><a href="{{ social_item.url }}" target="_blank" class="{{ social_item.class }}" title="{{ social_item.title }}"></a></li>
-        {% endfor %}
-    </ul>
-  </div>
-</div>
+
+<ul class="inline-list social-icons">
+    {% for social_item in site.data.socialmedia %}
+        <li><a href="{{ social_item.url }}" target="_blank" class="{{ social_item.class }}" title="{{ social_item.title }}"></a></li><br/>
+    {% endfor %}
+</ul>
 
 <div class="container">  
   <form id="contact" action="https://docs.google.com/forms/d/e/1FAIpQLScDUWZ5_611hGMtf1PwYq3odKSosQMfv6IhU8ludpWfjNSnbA/formResponse" method="post">
