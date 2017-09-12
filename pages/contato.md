@@ -29,7 +29,8 @@ permalink: "/contato/"
       </div>
   </div>
   <div class="large-6 columns">
-    <ul class="inline-list social-icons">
+    ![My helpful screenshot]({{ site.url }}/assets/socialmedia-icons/facebook.png)
+        <ul class="inline-list social-icons">
         {% for social_item in site.data.socialmedia %}
             <li><a href="{{ social_item.url }}" target="_blank" class="{{ social_item.class }}" title="{{ social_item.title }}"></a></li><br/>
         {% endfor %}
@@ -37,9 +38,5 @@ permalink: "/contato/"
   </div>
 </div>
 
-
-
-
-
-
+    ![My helpful screenshot]({{ site.url }}/assets/socialmedia-icons/facebook.png)
 
