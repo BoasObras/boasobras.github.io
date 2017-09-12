@@ -29,12 +29,7 @@ permalink: "/contato/"
       </div>
   </div>
   <div class="large-6 columns" markdown="1">
-![My helpful screenshot]({{ site.url }}/assets/img/apple-touch-icon-114x114.png)
-        <ul class="inline-list social-icons">
-        {% for social_item in site.data.socialmedia %}
-            <li><a href="{{ social_item.url }}" target="_blank" class="{{ social_item.class }}" title="{{ social_item.title }}"></a></li>
-        {% endfor %}
-    </ul>
+  [![My helpful screenshot]({{ site.url }}/assets/socialmedia-icons/facebook.png)](http://fb.com/grupoboasobras)
   </div>
 </div>
 
