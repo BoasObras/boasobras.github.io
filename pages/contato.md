@@ -29,7 +29,9 @@ permalink: "/contato/"
       </div>
   </div>
   <div class="large-6 columns" markdown="1">
-  [![My helpful screenshot]({{ site.url }}/assets/socialmedia-icons/facebook.png)](http://fb.com/grupoboasobras)
+    <div style="  position: relative; top: 50%; transform: translateY(-50%);">
+    [![My helpful screenshot]({{ site.url }}/assets/socialmedia-icons/facebook_flat_64.png)](http://fb.com/grupoboasobras)
+    </div>
   </div>
 </div>
 
