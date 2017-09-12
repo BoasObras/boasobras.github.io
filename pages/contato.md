@@ -9,6 +9,8 @@ header:
 permalink: "/contato/"
 ---
 
+![My helpful screenshot]({{ site.url }}/assets/img/apple-touch-icon-114x114.png)
+
 <div class="row">
   <div class="large-6 columns">
       <div class="container">  
@@ -29,14 +31,11 @@ permalink: "/contato/"
       </div>
   </div>
   <div class="large-6 columns">
-    ![My helpful screenshot]({{ site.url }}/assets/socialmedia-icons/facebook.png)
         <ul class="inline-list social-icons">
         {% for social_item in site.data.socialmedia %}
-            <li><a href="{{ social_item.url }}" target="_blank" class="{{ social_item.class }}" title="{{ social_item.title }}"></a></li><br/>
+            <li><a href="{{ social_item.url }}" target="_blank" class="{{ social_item.class }}" title="{{ social_item.title }}"></a></li>
         {% endfor %}
     </ul>
   </div>
 </div>
-
-    ![My helpful screenshot]({{ site.url }}/assets/socialmedia-icons/facebook.png)
 
