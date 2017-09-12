@@ -30,6 +30,7 @@ permalink: "/contato/"
   </div>
   <div class="large-6 columns" markdown="1">
   [![Facebook]({{ site.url }}/assets/socialmedia-icons/facebook_flat_64.png "Curta nossa página no Facebook")](https://fb.com/grupoboasobras){:target="_blank"} [Facebook](https://fb.com/grupoboasobras){:target="_blank"}
+  
   [![Instagram]({{ site.url }}/assets/socialmedia-icons/instagram_flat_64.png "Conheça nosso times e ações ;)")](https://instagram.com/grupoboasobras){:target="_blank"} [Instagram](https://instagram.com/grupoboasobras){:target="_blank"}
   </div>
 </div>
