@@ -28,7 +28,7 @@ permalink: "/contato/"
         </form>
       </div>
   </div>
-  <div class="large-6 columns">
+  <div class="large-6 columns" markdown="1">
     ![My helpful screenshot]({{ site.url }}/assets/img/apple-touch-icon-114x114.png)
         <ul class="inline-list social-icons">
         {% for social_item in site.data.socialmedia %}
