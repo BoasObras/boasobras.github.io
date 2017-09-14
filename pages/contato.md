@@ -10,7 +10,10 @@ permalink: "/contato/"
 ---
 
 <div class="row">
-  <div class="large-6 columns">
+  <div class="large-6 columns" markdown="1">
+  ## Escreva sua mensagem abaixo ▼
+
+  Ou acesse alguma de nossas redes sociais ao lado!
       <div class="container">  
         <form id="contact" action="https://docs.google.com/forms/d/e/1FAIpQLScDUWZ5_611hGMtf1PwYq3odKSosQMfv6IhU8ludpWfjNSnbA/formResponse" method="post">
           <fieldset>
@@ -29,15 +32,29 @@ permalink: "/contato/"
       </div>
   </div>
   <div class="large-6 columns" markdown="1" style="text-align: center;">
-  [![Facebook]({{ site.url }}/assets/socialmedia-icons/facebook_flat_64.png "Curta nossa página no Facebook")](https://fb.com/grupoboasobras){:target="_blank"} {::comment} [Facebook](https://fb.com/grupoboasobras){:target="_blank"} {:/comment}
+    <a href="https://fb.com/grupoboasobras" target="_blank" alt="Curta nossa página no Facebook"><img src="/assets/socialmedia-icons/facebook_flat_64.png" /></a> [Facebook](https://fb.com/grupoboasobras){:target="_blank"}
 
-  [![Instagram]({{ site.url }}/assets/socialmedia-icons/instagram_flat_64.png "Conheça nosso times e ações ;)")](https://instagram.com/grupoboasobras){:target="_blank"} {::comment} [Instagram](https://instagram.com/grupoboasobras){:target="_blank"} {:/comment}
-
-  [![GPlus]({{ site.url }}/assets/socialmedia-icons/gplus_flat_64.png "Conecte-se com o Boas Obras")](https://plus.google.com/){:target="_blank"} {::comment} [Google+](https://plus.google.com/){:target="_blank"} {:/comment}
-
-  [![Github]({{ site.url }}/assets/socialmedia-icons/github_flat_64.png "Nosso site é open-source! Conheça, contribua e compartilhe!")](https://github.com/BoasObras){:target="_blank"} {::comment} [Github](https://github.com/BoasObras){:target="_blank"} {:/comment}
-
-  [![LinkedIn]({{ site.url }}/assets/socialmedia-icons/linkedin_flat_64.png "Faça parte de nossa rede profissional")](https://linkedin.com/){:target="_blank"} {::comment} [LinkedIn](https://github.com/BoasObras){:target="_blank"} {:/comment}
+    <a href="https://instagram.com/grupoboasobras" target="_blank" alt="Conheça nosso time e ações ;)"><img src="/assets/socialmedia-icons/instagram_flat_64.png" /></a> [Instagram](https://instagram.com/grupoboasobras){:target="_blank"}
+    
+    <a href="https://plus.google.com/grupoboasobras" target="_blank" alt="Conecte-se com o Boas Obras"><img src="/assets/socialmedia-icons/gplus_flat_64.png" /></a> [Google+](https://plus.google.com/){:target="_blank"}
+    
+    <a href="https://github.com/BoasObras" target="_blank" alt="Nosso site é open-source! Conheça, contribua e compartilhe!"><img src="/assets/socialmedia-icons/github_flat_64.png" /></a> [Github](https://github.com/BoasObras){:target="_blank"}
+    
+    <a href="https://linkedin.com/grupoboasobras" target="_blank" alt="Faça parte de nossa rede profissional"><img src="/assets/socialmedia-icons/linkedin_flat_64.png" /></a> [LinkedIn](https://github.com/BoasObras){:target="_blank"}
   </div>
 </div>
+
+{::comment}
+## Deprecated code
+
+[![Facebook]({{ site.url }}/assets/socialmedia-icons/facebook_flat_64.png "Curta nossa página no Facebook")](https://fb.com/grupoboasobras){:target="_blank"}
+
+[![Instagram]({{ site.url }}/assets/socialmedia-icons/instagram_flat_64.png "Conheça nosso times e ações ;)")](https://instagram.com/grupoboasobras){:target="_blank"}
+
+[![GPlus]({{ site.url }}/assets/socialmedia-icons/gplus_flat_64.png "Conecte-se com o Boas Obras")](https://plus.google.com/){:target="_blank"}
+
+[![Github]({{ site.url }}/assets/socialmedia-icons/github_flat_64.png "Nosso site é open-source! Conheça, contribua e compartilhe!")](https://github.com/BoasObras){:target="_blank"}
+
+[![LinkedIn]({{ site.url }}/assets/socialmedia-icons/linkedin_flat_64.png "Faça parte de nossa rede profissional")](https://linkedin.com/){:target="_blank"}
+{:/comment}
 
