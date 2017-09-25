@@ -9,13 +9,12 @@ header:
 permalink: "/contato/"
 ---
 
-## Escreva sua mensagem abaixo ▼
+### Escreva sua mensagem abaixo ▾
 
 Ou acesse alguma de nossas redes sociais ao lado!
 
 <div class="row">
   <div class="large-6 columns">
-
       <div class="container">  
         <form id="contact" action="https://docs.google.com/forms/d/e/1FAIpQLScDUWZ5_611hGMtf1PwYq3odKSosQMfv6IhU8ludpWfjNSnbA/formResponse" method="post">
           <fieldset>
