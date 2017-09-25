@@ -34,15 +34,15 @@ Ou acesse alguma de nossas redes sociais ao lado!
       </div>
   </div>
   <div class="large-6 columns" markdown="1" style="text-align: center;">
-    [![Facebook]({{ site.url }}/assets/socialmedia-icons/facebook_flat_64.png "Curta nossa página no Facebook")](https://fb.com/grupoboasobras){:target="_blank"}
+  [![Facebook]({{ site.url }}/assets/socialmedia-icons/facebook_flat_64.png "Curta nossa página no Facebook")](https://fb.com/grupoboasobras){:target="_blank"}
 
-    [![Instagram]({{ site.url }}/assets/socialmedia-icons/instagram_flat_64.png "Conheça nosso times e ações ;)")](https://instagram.com/grupoboasobras){:target="_blank"}
+  [![Instagram]({{ site.url }}/assets/socialmedia-icons/instagram_flat_64.png "Conheça nosso times e ações ;)")](https://instagram.com/grupoboasobras){:target="_blank"}
     
-    [![GPlus]({{ site.url }}/assets/socialmedia-icons/gplus_flat_64.png "Conecte-se com o Boas Obras")](https://plus.google.com/){:target="_blank"}
+  [![GPlus]({{ site.url }}/assets/socialmedia-icons/gplus_flat_64.png "Conecte-se com o Boas Obras")](https://plus.google.com/){:target="_blank"}
     
-    [![Github]({{ site.url }}/assets/socialmedia-icons/github_flat_64.png "Nosso site é open-source! Conheça, contribua e compartilhe!")](https://github.com/BoasObras){:target="_blank"}
+  [![Github]({{ site.url }}/assets/socialmedia-icons/github_flat_64.png "Nosso site é open-source! Conheça, contribua e compartilhe!")](https://github.com/BoasObras){:target="_blank"}
     
-    [![LinkedIn]({{ site.url }}/assets/socialmedia-icons/linkedin_flat_64.png "Faça parte de nossa rede profissional")](https://linkedin.com/){:target="_blank"}
+  [![LinkedIn]({{ site.url }}/assets/socialmedia-icons/linkedin_flat_64.png "Faça parte de nossa rede profissional")](https://linkedin.com/){:target="_blank"}
   </div>
 </div>
 
