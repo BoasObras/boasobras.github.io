@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Ajude o Boas Obras"
+title: "Nos ajude a fazer mais"
 meta_title: "Ajude o Boas Obras!"
-subheadline: "Estamos sempre precisando de uma mão, tanto em atividade, arrecadações quanto em ideias 💡"
+subheadline: "Precisamos de ajudas em atividades, arrecadações e ideias 💡"
 teaser: "O Boas Obras surgiu da vontade de fazer mais, venha fazer mais conosco!"
 header:
    image_fullwidth: "header_como-ajudar.jpg"
@@ -22,11 +22,11 @@ Você pode...<br/>
 ...colaborar no sucesso das [campanhas que estamos promovendo >]({{ site.baseurl }}/campanhas/);<br/>
 ...ou você pode sugerir alguma ideias para que possamos colocar em prática em breve! [Fale conosco >]({{ site.baseurl }}/campanhas/).
 
-callforaction:
-  url: /atividades/
-  text: Quero conhecer as atividades do Boas Obras ›
-  style: info
-permalink: /index.html
+<div class="row t60 b60">
+    <div class="small-12 text-center columns">
+        <a class="button large radius {{ alert }}" href="{{ site.baseurl }}/atividades/">{{ Conheça agora as atividades do Boas Obras > }}</a>
+    </div><!-- /.small-12.columns -->
+</div><!-- /.row -->
 
 ### Torne-se voluntário
 
