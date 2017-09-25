@@ -22,11 +22,7 @@ Você pode...<br/>
 ...colaborar no sucesso das [campanhas que estamos promovendo >]({{ site.baseurl }}/campanhas/);<br/>
 ...ou você pode sugerir alguma ideias para que possamos colocar em prática em breve! [Fale conosco >]({{ site.baseurl }}/campanhas/).
 
-<div class="row t60 b60">
-    <div class="small-12 text-center columns">
-        <a class="button large radius {{ alert }}" href="{{ site.baseurl }}/atividades/">{{ Conheça agora as atividades do Boas Obras > }}</a>
-    </div><!-- /.small-12.columns -->
-</div><!-- /.row -->
+{% include alert success="Yay! you did it!" classes='round' %}
 
 ### Torne-se voluntário
 
