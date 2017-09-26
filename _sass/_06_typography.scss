@@ -16,6 +16,7 @@ Check typography variables › _3_typography_settings.scss
 - Additional typographical elements
 - Footnotes
 - Icon Font
+- Center Image
 
 */
 
@@ -352,8 +353,6 @@ mark {
 }
 
 
-
-
 /* Icon Font
    See the icon-set/preview in /assets/fonts/iconfont-preview.html
 ------------------------------------------------------------------- */
@@ -498,3 +497,13 @@ font-smoothing: antialiased;
 .icon-warning:before { content: "\f131"; }
 .icon-xing:before { content: "\f135"; }
 .icon-youtube:before { content: "\f132"; }
+
+
+/* Center-image, used in links, mostly. Example in /atividades/.
+------------------------------------------------------------------- */
+
+.center-image
+{
+    margin: 0 auto;
+    display: block;
+}

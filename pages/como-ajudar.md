@@ -22,7 +22,7 @@ Você pode...<br/>
 ...colaborar no sucesso das [campanhas que estamos promovendo >]({{ site.baseurl }}/campanhas/);<br/>
 ...ou você pode sugerir alguma ideias para que possamos colocar em prática em breve! [Fale conosco >]({{ site.baseurl }}/campanhas/).
 
-[Veja nossas atividades ›]({{ site.baseurl }}/atividades/){: .t30 .button .radius}
+[Veja nossas atividades ›]({{ site.baseurl }}/atividades/){: .t30 .button .radius .center-image}
 
 ### Torne-se voluntário
 
