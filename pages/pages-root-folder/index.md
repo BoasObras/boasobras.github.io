@@ -8,10 +8,10 @@ layout: frontpage
 header:
   image_fullwidth: header_BoasObras.jpg
 widget1:
-  title: "Blog & Portfólio"
-  url: /blog/
-  image: blog.jpg
-  text: 'Quer conhecer um pouco sobre as nossas ideias, as campanhas que apoiamos ou notícias sobre fazer o bem? Entre agora no nosso blog para ver mais 😃'
+  title: "Conheça sobre nós"
+  url: /sobre/quem-somos/
+  image: quem-somos.jpg
+  text: 'Ajudar o próximo é o que nos motiva e nossa missão é distribuir subsídios e amor para a comunidade de Campinas. Venha conhecer mais sobre a gente 😃'
 widget2:
   title: "Atividades e Campanhas"
   url: /atividades/
