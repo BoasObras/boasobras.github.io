@@ -29,13 +29,6 @@
   - title: "Histórico"
     url: "/atividades/historico/"
 
-- title: Blog
-  url: "/blog/"
-  side: left
-  dropdown:
-  - title: "Arquivo do Blog"
-    url: "/blog/arquivo/"
-
 - title: "busca"
   url: "/busca/"
   side: right

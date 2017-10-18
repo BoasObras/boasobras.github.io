@@ -23,8 +23,8 @@ Pensamos sempre em atividades que gerem impacto de longo prazo e não somente po
 
 Você pode...<br/>
 ...acessar [nossas atividades]({{ site.baseurl }}/atividades/) e ajudar-nos nelas;<br/>
-...colaborar no sucesso das [campanhas que estamos promovendo]({{ site.baseurl }}/campanhas/);<br/>
-...ou você pode sugerir alguma ideias para que possamos colocar em prática em breve! [Fale conosco!]({{ site.baseurl }}/campanhas/)
+...colaborar no sucesso das [campanhas que estamos promovendo]({{ site.baseurl }}/atividades/campanhas/);<br/>
+...ou você pode sugerir alguma ideias para que possamos colocar em prática em breve! [Fale conosco!]({{ site.baseurl }}/contato/)
 
 <div class="row" style="text-align: center;" markdown="1">
 [Veja nossas atividades ›]({{ site.baseurl }}/atividades/){: .t30 .button .radius}
@@ -38,7 +38,9 @@ Você pode...<br/>
 
 Quer nos ajudar mais ainda? Estamos sempre em busca de pessoas que desejam ser protagonistas sociais e com vontade de distribuir amor a quem mais precisa, com muita mão na massa 😉
 
+<div class="row" style="text-align: center;" markdown="1">
 [Seja voluntário conosco ›]({{ site.baseurl }}/inscricao/){: .t30 .button .radius}
+</div>
 
 ### Doe para Boas Obras
 
