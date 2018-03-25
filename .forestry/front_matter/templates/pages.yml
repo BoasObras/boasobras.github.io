@@ -1,0 +1,194 @@
+---
+pages:
+- pages/roadmap.md
+- pages/redirected_page.md
+- pages/info.md
+- pages/pages-root-folder/index.md
+- blog/index.html
+- pages/headers.md
+- pages/getting-started.md
+- pages/documentation.md
+- pages/design.md
+- pages/contato.md
+- pages/como-ajudar.md
+- pages/changelog.md
+- pages/busca.md
+- blog/archive.html
+- pages/pages-root-folder/404.md
+hide_body: false
+fields:
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: ''
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: meta_title
+  label: Meta title
+  type: text
+  hidden: false
+  default: ''
+- name: subheadline
+  label: Subheadline
+  type: text
+  hidden: false
+  default: ''
+- name: teaser
+  label: Teaser
+  type: textarea
+  hidden: false
+  default: ''
+- name: header
+  label: Header
+  type: field_group
+  fields:
+  - name: image_fullwidth
+    label: Image fullwidth
+    type: text
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
+- name: sitemap
+  label: Sitemap
+  type: boolean
+  hidden: false
+  default: ''
+- name: permalink
+  label: Permalink
+  type: text
+  hidden: false
+  default: ''
+- name: breadcrumb
+  label: Breadcrumb
+  type: boolean
+  hidden: false
+  default: ''
+- name: show_meta
+  label: Show meta
+  type: boolean
+  hidden: false
+  default: false
+- name: widget1
+  label: Widget1
+  type: field_group
+  fields:
+  - name: title
+    label: Title
+    type: text
+    hidden: false
+    default: ''
+  - name: url
+    label: Url
+    type: text
+    hidden: false
+    default: ''
+  - name: image
+    label: Image
+    type: text
+    hidden: false
+    default: ''
+  - name: text
+    label: Text
+    type: textarea
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
+- name: widget2
+  label: Widget2
+  type: field_group
+  fields:
+  - name: title
+    label: Title
+    type: text
+    hidden: false
+    default: ''
+  - name: url
+    label: Url
+    type: text
+    hidden: false
+    default: ''
+  - name: image
+    label: Image
+    type: text
+    hidden: false
+    default: ''
+  - name: text
+    label: Text
+    type: textarea
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
+- name: widget3
+  label: Widget3
+  type: field_group
+  fields:
+  - name: title
+    label: Title
+    type: text
+    hidden: false
+    default: ''
+  - name: url
+    label: Url
+    type: text
+    hidden: false
+    default: ''
+  - name: image
+    label: Image
+    type: text
+    hidden: false
+    default: ''
+  - name: text
+    label: Text
+    type: textarea
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
+- name: callforaction
+  label: Callforaction
+  type: field_group
+  fields:
+  - name: url
+    label: Url
+    type: text
+    hidden: false
+    default: ''
+  - name: text
+    label: Text
+    type: text
+    hidden: false
+    default: ''
+  - name: style
+    label: Style
+    type: text
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
+- name: homepage
+  label: Homepage
+  type: boolean
+  hidden: false
+  default: ''
+- name: redirect_to
+  label: Redirect to
+  type: text
+  hidden: false
+  default: ''
+- name: comments
+  label: Comments
+  type: boolean
+  hidden: false
+  default: false
+- name: author
+  label: Author
+  type: text
+  hidden: false
+  default: phlow

@@ -1,0 +1,282 @@
+---
+pages:
+- _posts/design/2015-10-15-mediaelement_js.md
+- _posts/design/2015-08-16-typography.md
+- _posts/design/2015-08-15-comments.md
+- _posts/design/2015-08-11-no-header.md
+- _posts/design/2015-03-12-no-header-but-image.md
+- _posts/design/2015-02-10-header-with-text.md
+- _posts/design/2014-10-09-header-logo-only.md
+- _posts/design/2014-10-09-header-image-color.md
+- _posts/design/2014-10-09-header-full-width-image.md
+- _posts/design/2014-10-08-header-image-pattern.md
+- _posts/design/2014-09-15-gallery.md
+- _posts/design/2014-09-14-video.md
+- _posts/design/2014-09-13-grid.md
+- _posts/design/2014-09-10-portfolio.md
+- _posts/design/2014-08-19-page-fullwidth.md
+- _posts/design/2014-07-10-post-right-sidebar.md
+- _posts/design/2014-07-10-page.md
+- _posts/design/2014-07-10-breadcrumb.md
+- _posts/design/2014-07-09-post-left-sidebar.md
+- _posts/video.md
+- _posts/post_without_image.md
+- _posts/post_with_image.md
+- _posts/page_without_image.md
+- _posts/page_with_table_of_contents.md
+- _posts/page_with_image.md
+- _posts/page_simple.md
+- _posts/page_all_frontmatter.md
+- _posts/gallery.md
+hide_body: false
+fields:
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: ''
+- name: subheadline
+  label: Subheadline
+  type: text
+  hidden: false
+  default: ''
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: teaser
+  label: Teaser
+  type: textarea
+  hidden: false
+  default: ''
+- name: categories
+  label: Categories
+  type: tag_list
+  hidden: false
+  default: ''
+- name: tags
+  label: Tags
+  type: tag_list
+  hidden: false
+  default: ''
+- name: gallery
+  label: Gallery
+  type: field_group_list
+  fields:
+  - name: image_url
+    label: Image url
+    type: text
+    hidden: false
+    default: ''
+  - name: caption
+    label: Caption
+    type: text
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
+- name: image
+  label: Image
+  type: field_group
+  fields:
+  - name: thumb
+    label: Thumb
+    type: text
+    hidden: false
+    default: ''
+  - name: title
+    label: Title
+    type: text
+    hidden: false
+    default: ''
+  - name: homepage
+    label: Homepage
+    type: text
+    hidden: false
+    default: ''
+  - name: caption
+    label: Caption
+    type: text
+    hidden: false
+    default: ''
+  - name: caption_url
+    label: Caption url
+    type: text
+    hidden: false
+    default: ''
+  - name: header
+    label: Header
+    type: text
+    hidden: false
+    default: ''
+  - name: url
+    label: Url
+    type: text
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
+- name: meta_description
+  label: Meta description
+  type: text
+  hidden: false
+  default: ''
+- name: permalink
+  label: Permalink
+  type: text
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+- name: header
+  label: Header
+  type: boolean
+  fields:
+  - name: image_fullwidth
+    label: Image fullwidth
+    type: text
+    hidden: false
+    default: ''
+  - name: image
+    label: Image
+    type: text
+    hidden: false
+    default: ''
+  - name: pattern
+    label: Pattern
+    type: text
+    hidden: false
+    default: ''
+  - name: color
+    label: Color
+    type: text
+    hidden: false
+    default: ''
+  - name: background-color
+    label: Background color
+    type: text
+    hidden: false
+    default: ''
+  - name: title
+    label: Title
+    type: text
+    hidden: false
+    default: ''
+  - name: caption
+    label: Caption
+    type: text
+    hidden: false
+    default: ''
+  - name: caption_url
+    label: Caption url
+    type: text
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
+- name: style
+  label: Style
+  type: text
+  hidden: false
+  default: ''
+- name: iframe
+  label: Iframe
+  type: textarea
+  hidden: false
+  default: ''
+- name: video
+  label: Video
+  type: field_group
+  fields:
+  - name: embedURL
+    label: Embedurl
+    type: text
+    hidden: false
+    default: ''
+  - name: contentURL
+    label: Contenturl
+    type: text
+    hidden: false
+    default: ''
+  - name: thumbnailUrl
+    label: Thumbnailurl
+    type: text
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
+- name: sidebar
+  label: Sidebar
+  type: text
+  hidden: false
+  default: ''
+- name: comments
+  label: Comments
+  type: boolean
+  hidden: false
+  default: false
+- name: breadcrumb
+  label: Breadcrumb
+  type: boolean
+  hidden: false
+  default: ''
+- name: show_meta
+  label: Show meta
+  type: boolean
+  hidden: false
+  default: true
+- name: meta_title
+  label: Meta title
+  type: text
+  hidden: false
+  default: ''
+- name: tawkto
+  label: Tawkto
+  type: boolean
+  hidden: false
+  default: ''
+- name: callforaction
+  label: Callforaction
+  type: field_group
+  fields:
+  - name: url
+    label: Url
+    type: text
+    hidden: false
+    default: ''
+  - name: text
+    label: Text
+    type: text
+    hidden: false
+    default: ''
+  - name: style
+    label: Style
+    type: text
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
+- name: homepage
+  label: Homepage
+  type: boolean
+  hidden: false
+  default: ''
+- name: meta_teaser
+  label: Meta teaser
+  type: textarea
+  hidden: false
+  default: ''
+- name: author
+  label: Author
+  type: text
+  hidden: false
+  default: phlow
+- name: mediaplayer
+  label: Mediaplayer
+  type: boolean
+  hidden: false
+  default: ''
