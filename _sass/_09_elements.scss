@@ -71,8 +71,8 @@
     border-bottom: 1px solid #fff;
   }
   .alert-box.terminal {
-    background: $grey-12; 
-    color: #fff; 
+    background: $grey-12;
+    color: #fff;
     border-color: scale-color($grey-12, $lightness: -14%);
     font-family: $font-family-monospace;
   }
@@ -131,7 +131,7 @@ dd.accordion-navigation.active span:before { content: "\F105" }
 ------------------------------------------------------------------- */
 
 /*! Lazy Load XT v1.0.6 2014-11-19
- * http://ressio.github.io/lazy-load-xt
+ * https://ressio.github.io/lazy-load-xt
  * (C) 2014 RESS.io
  * Licensed under MIT */
 img.lazy {

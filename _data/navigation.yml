@@ -14,7 +14,7 @@
   - title: "Voluntários"
     url: "/sobre/voluntarios/"
   - title: "Parceiros"
-    url: "/sobre/parceiros/" 
+    url: "/sobre/parceiros/"
 
 - title: Atividades
   url: "/atividades/"
@@ -25,7 +25,7 @@
   - title: "Tarde com crianças"
     url: "/atividades/tarde-com-criancas/"
   - title: "Campanhas"
-    url: "/atividades/campanhas/"    
+    url: "/atividades/campanhas/"
   - title: "Histórico"
     url: "/atividades/historico/"
 
@@ -36,4 +36,3 @@
 - title: "Contato"
   url: "/contato/"
   side: right
-
