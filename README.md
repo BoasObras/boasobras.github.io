@@ -2,7 +2,7 @@
 
 O »Boas Obras« é um grupo voluntário baseado em campinas que age em prol das necessidades de comunidades locais, buscando levar condições básicas, conhecimento e amor aos que mais precisam.
 
-[![Logo do Boas Obras](https://github.com/BoasObras/boasobras.github.io/blob/master/assets/img/logo.png)](http://boasobras.org/)
+[![Logo do Boas Obras](https://github.com/BoasObras/boasobras.github.io/blob/master/assets/img/logo.png)](https://boasobras.github.io/)
 
 ## O que fazemos?
 
@@ -42,7 +42,7 @@ Tema criado com &hearts; por [Phlow][6], editado por [Victor Neves][4] e com bas
  [4]: https://www.linkedin.com/in/nevesvictor/
  [5]: http://jekyllrb.com/
  [6]: http://phlow.de/
- [7]: http://boasobras.org/
+ [7]: https://boasobras.github.io/
  [8]: http://fb.com/grupoboasobras
  [9]: http://plus.google.com/
  [10]: https://github.com/BoasObras
